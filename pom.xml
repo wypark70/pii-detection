@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.atsoft</groupId>
     <artifactId>pii-detection</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>pii-detection</name>
     <description>pii-detection</description>
     <url/>
