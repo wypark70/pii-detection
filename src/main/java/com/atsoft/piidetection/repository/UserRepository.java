@@ -22,7 +22,6 @@ public class UserRepository {
 
     public List<User> findAll() throws Exception {
         String sql = SqlLoader.loadSql("sql/select-users.sql");
-        return jdbcTemplate.query(sql,
-                (rs, rowNum) -> new User(rs.getLong("id"), rs.getString("name"), rs.getString("email")));
+        return jdbcTemplate.query(sql, (rs, rowNum) -> new User(rs.getLong("id"), rs.getString("name"), rs.getString("email")));
     }
 }
